@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: (4, 1fr);
+    grid-template-columns: 1fr;
+    grid-gap: 1px;
+}
+
+span {
+    width: 100px;
+    height: 30px;
+    background-color: #D5B0AC;
+    color: #402E2A;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
