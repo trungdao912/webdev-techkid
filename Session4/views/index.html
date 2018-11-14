@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./main.css" />
+</head>
+<body>
+    <form action="/ask" method="POST">
+        <h3>Hãy hỏi cộng đồng một câu hỏi đúng/sai có hoặc không</h3>
+        <textarea name="question" id="field" cols="30" rows="10" maxlength="200"></textarea>
+        <p>còn <span id="num">200</span>/200 Ký tự</p>
+        <button type="submit">Gửi</button>
+    </form>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
